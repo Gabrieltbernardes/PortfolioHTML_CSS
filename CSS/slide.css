@@ -1,0 +1,43 @@
+section.slider {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.slider-content {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.video-desktop,
+.video-mobile {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Mobile: oculta vídeo desktop */
+@media screen and (max-width: 900px) {
+    .video-desktop {
+        display: none;
+    }
+
+    .video-mobile {
+        display: block;
+    }
+}
+
+/* Desktop: oculta vídeo mobile */
+@media screen and (min-width: 901px) {
+    .video-desktop {
+        display: block;
+    }
+
+    .video-mobile {
+        display: none;
+    }
+}
