@@ -1,4 +1,4 @@
-# Portfólio - [SEU NOME]
+# Portfólio - Gabriel Teixeira Bernardes
 
 ## 📝 Descrição do Projeto
 
